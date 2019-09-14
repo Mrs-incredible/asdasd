@@ -1,0 +1,33 @@
+.modal {-webkit-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);-moz-box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);box-shadow: 0px 10px 20px 0px rgba(50, 50, 50, 0.52);}
+.modal { background: #69bccc;font-family: 'Montserrat', sans-serif;border-radius: 6px; width: 698px; margin: 30px auto; padding: 50px 50px 60px 55px; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; box-sizing: border-box; text-align: left; position: relative; }
+.modal h4 {margin: 0 0 15px 0;padding-bottom: 20px;font-family: 'Montserrat', sans-serif;font-size: 20px;font-weight: 500;letter-spacing: 2px;color: #ffffff;}
+.modal h3 {margin: 0 160px 2px 0;padding-bottom: 20px;font-family: 'Montserrat', sans-serif;font-size: 37px;letter-spacing: 2px;font-weight: bold;color: #ffffff;text-transform: uppercase;}
+.ebook-email-sec { margin: 0px; padding: 0px; width: 100%; float: left; }
+.modal .ebook-input-btn2 { width: 280px; background: rgb(125,189,73);background: -moz-linear-gradient(top, rgba(125,189,73,1) 0%, rgba(74,150,12,1) 98%);background: -webkit-linear-gradient(top, rgba(125,189,73,1) 0%,rgba(74,150,12,1) 98%);background: linear-gradient(to bottom, rgba(125,189,73,1) 0%,rgba(74,150,12,1) 98%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7dbd49', endColorstr='#4a960c',GradientType=0 );letter-spacing: 0.5px; cursor: pointer; margin: 0px; padding: 20px 16px;border-radius: 7px; float: left; border: 0px; font-family: 'Montserrat', sans-serif; font-size: 18px;font-weight: 600; text-transform: uppercase; color: #FFF; box-sizing: border-box; -webkit-box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.27); box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.27); -webkit-transition: all 0.4s; transition: all 0.4s; }
+.modal .ebook-input-btn2:hover {background: rgb(125,189,73); }
+.modal .ebook-input-btn1 { width: 280px;background: rgb(249,108,0);background: -moz-linear-gradient(top, rgba(249,108,0,1) 0%, rgba(220,19,0,1) 100%);background: -webkit-linear-gradient(top, rgba(249,108,0,1) 0%,rgba(220,19,0,1) 100%);background: linear-gradient(to bottom, rgba(249,108,0,1) 0%,rgba(220,19,0,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f96c00', endColorstr='#dc1300',GradientType=0 );letter-spacing: 0.5px; border-radius: 7px; cursor: pointer; margin: 0px; padding: 20px 16px; float: right; border: 0px; font-family: 'Montserrat', sans-serif; font-size: 18px;font-weight: 600; text-transform: uppercase; color: #FFF; box-sizing: border-box; -webkit-box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.27); box-shadow: 5px 5px 5px 0 rgba(0,0,0,0.27); -webkit-transition: all 0.4s; transition: all 0.4s; }
+.modal .ebook-input-btn1:hover { background: rgb(249,108,0); }
+.modal .ebook-cls-btn { font-size: 14px; line-height: 18px; width: 28px; height: 28px; -webkit-border-radius: 50%; border-radius: 50%; background: #FFF; position: absolute; right: -14px; top: -14px; border: 0px; -webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,0.27); box-shadow: 0 0 2px 0 rgba(0,0,0,0.27); cursor: pointer; }
+.modal .ebook-cls-btn:hover {background: #69bccc;color: #fff;}
+.popup-graybox {position: fixed;width: 100%;top: 0;left: 0;height: 100vh;z-index: 99999;text-align: center;align-items: center;display: flex;box-sizing: border-box;overflow: auto;}
+
+ @media only screen and (max-width:815px) {
+.modal {width: 80%; }
+.modal .ebook-input-btn2,.notification-popup-sec .ebook-input-btn1 {width: 230px;font-size: 14px;padding: 15px 15px;}
+.modal h3 {margin: 0 150px 2px 0;padding-bottom: 20px;font-size: 32px;}
+.modal h4 {font-size: 18px;}
+}
+@media only screen and (max-width:675px) {
+.modal h3 { font-size: 22px; margin: 0 120px 2px 0;padding-bottom: 15px;}
+.modal h2 {font-size: 30px;}
+.modal .ebook-input-btn2,.notification-popup-sec .ebook-input-btn1 {width: 45%;font-size: 12px;padding: 12px 15px;}
+.modal {padding: 40px 40px 40px 40px;}
+.modal h4 {font-size: 14px;padding-bottom: 15px;}
+}
+@media only screen and (max-width:480px) {
+.modal {width: 90%;padding: 25px 25px 26px 25px;}
+.modal .ebook-input-btn2, .notification-popup-sec .ebook-input-btn1 {width: 100%;margin: 5px 0;}
+.modal h4 {font-size: 12px;padding-bottom: 5px;}
+.modal h3 { font-size: 16px;margin: 0 58px 2px 0;}
+.modal h2 {font-size: 20px;margin: 0 0 24px 0;}
+}
