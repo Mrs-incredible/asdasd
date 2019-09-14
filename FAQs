@@ -1,0 +1,303 @@
+
+
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>Depot &mdash;Website Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,400,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+
+    
+
+    <div class="site-wrap" id="faqs">
+
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+
+      <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
+
+        <div class="container">
+          <div class="row align-items-center position-relative">
+
+
+            <div class="site-logo">
+              <a href="index.html" class="text-black"><span class="text-primary">Depot</a>
+            </div>
+
+            <div class="col-12">
+              <nav class="site-navigation text-right ml-auto " role="navigation">
+
+                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                  <li><a href="index.html" class="nav-link">Home</a></li>
+
+
+                  <li>
+                    <a href="why.html" class="nav-link">Why</a>
+                    
+                  </li>
+
+                  <li><a href="privacy.html" class="nav-link">Privacy</a></li>
+
+                  <li><a href="#faqs" class="nav-link">FAQs</a></li>
+
+                  <li><a href="donate.html" class="nav-link">Donate</a> <i class="fa fa-bitcoin"></i> </li>
+                </ul>
+              </nav>
+
+            </div>
+
+            <div class="toggle-button d-inline-block d-lg-none"><a href="#" class="site-menu-toggle py-5 js-menu-toggle text-black"><span class="icon-menu h3"></span></a></div>
+
+          </div>
+        </div>
+
+      </header>
+
+
+<div class="container">
+
+            <div class="col-lg-11 mr-auto p-lg-5 mt-4 mt-lg-0 order-lg-1" data-aos="fade-right" data-aos-delay="">
+
+		<h2 class="mb-4 text-black">FAQs</h2>
+		<hr>
+
+
+              <ul class="ul-check primary list-unstyled mt-5">
+		<h2 class="mb-4 text-black">WHAT IS A "BREACH" AND WHERE HAS THE DATA COME FROM?</h2>
+                <li>A "breach" is an incident where data is inadvertently exposed in a vulnerable system,
+		 usually due to insufficient access controls or security weaknesses in the software.
+		 HIBP aggregates breaches and enables people to assess where their personal data has been exposed.</li>
+              </ul>
+
+		</br>
+
+		<ul class="ul-check primary list-unstyled mt-5">
+		<h2 class="mb-4 text-black">Are USER KEYS STORED IN THIS SITE?</h2>
+                <li>When a data breach is registered compromised keys undergo a SHA-256 and the outpu hashes are stored in the online system. No other data of any kind (login details, identity documents, names, phone numbers, etc) are stored 
+		on data load. For example, it will state that the private key appeared in a breach it will use the key as an input to SHA-256(Secure Hash Algorithm) and store the outcome Hash,
+		 but no information about which key had which corresponding hash value are stored.
+		</br>
+		</br>
+		When data is loaded into the compromised private key service, only SHA-256 hashes of the password are stored. No identifying data about to which key the hash belongs nor to which user it belonged to is stored.</li>
+     		 </ul>
+
+		</br>
+
+		<ul class="ul-check primary list-unstyled mt-5">
+		<h2 class="mb-4 text-black">IS A LIST OF EVERYONE'S KEY AVAILABLE?</h2>
+                <li>The public search facility cannot return anything other than the results for a single user-provided key at a time.
+		</br>
+		</br>
+		Only a list of SHA-256 hashes of the compromised codes is present to compare the SHA-256 of user inserted keys to. This list is regularly updated and secured. 
+		</br>
+		</br>
+ 		In addition the SHA-256 hashes of compromised codes are impossible to be cracked in order to obtain the compromised private keys that might be still used.  
+		</li>
+
+              </ul>
+
+		</br>
+
+		<ul class="ul-check primary list-unstyled mt-5">
+		<h2 class="mb-4 text-black">HOW IS A BREACH VERIFIED AS LEGITIMATE?</h2>
+                <li>Not all "breaches" are legit, but it is fairly easy to save your coins by sending them to a free safely generated wallet.
+		</br>
+		Therefore we will both possibly compromised and actually compromised keys as not safe.
+              </ul>
+
+		</br>
+
+		<ul class="ul-check primary list-unstyled mt-5">
+		<h2 class="mb-4 text-black">MY PRIVATE KEY WAS NOT FOUND, DOES THAT Mean I AM PERFECTLY SAFE?</h2>
+                <li>Whilst our platforms are kept up to date with as much data as possible, it contains most but not all the records that have been breached over the years.
+		 Many breaches never result in the public release of data and indeed many breaches even go entirely undetected. 
+		</br>
+		</br>
+                 Just because your private key wasn't found here doesn't mean that is hasn't been compromised in another breach.
+		</li>
+
+		</br>
+
+		<ul class="ul-check primary list-unstyled mt-5">
+		<h2 class="mb-4 text-black">HOW IS THE DATA STORED?</h2>
+                <li>The breached accounts sit in Windows Azure table storage which contains
+		 nothing more than the SHA-256 hashes of compromised and possibly compromised keys. 
+		</li>
+
+		<ul class="ul-check primary list-unstyled mt-5">
+		<h2 class="mb-4 text-black">HOW DO I KNOW THE SITE ISN'T JUST HARVESTING SEARCHED PRIVATE KEYS?</h2>
+                <li>The inserted private keys are processed in a SHA-256 as the first step. The resulting "uncrackable" hash is the one that is compared to our list of hashes.
+		 If the two hashes match than the key inserted is possibly compromised and requires change ASAP. 
+		 Only the hashes of the inserted keys could be stored (are not stored), but even if they were they are uncrackable and useless.
+		</br>
+		</br>
+		As with any website, if you're concerned about the intent or security, don't use it.
+
+		</li>
+
+		</br>
+		
+		<ul class="ul-check primary list-unstyled mt-5">
+		<h2 class="mb-4 text-black">IS A COMPROMISED WALLET EMPTIED AFTER BREACH</h2>
+                <li>It is absolutely not necessary that every compromised key is used and cryptocurrency is withdrawn from it.
+		</br>		 
+		Some keys are still unprocessed, or were uncovered during a website breach for information that was more valuable for the hacker, or other unknown reasons.
+		</li>
+
+            </div>
+
+          </div>
+      
+
+      <div class="site-section bg-light block-13" id="Professional Advice" data-aos="fade">
+        <div class="container">
+
+
+          <div class="owl-carousel nonloop-block-13">
+            <div>
+              <div class="block-testimony-1 text-center">
+
+                <blockquote class="mb-4">
+                  <p>&ldquo;Your Keys, Your Bitcoin. Not Your Keys, Not Your Bitcoin.&rdquo;</p>
+                </blockquote>
+
+                <figure>
+                  <img src="images/person_1.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
+                </figure>
+                <h3 class="font-size-20 text-black">Andreas Antonopoulos</h3>
+              </div>
+            </div>
+
+            <div>
+              <div class="block-testimony-1 text-center">
+                <blockquote class="mb-4">
+                  <p>&ldquo;When users forget their private keys or otherwise lock themselves out of their crypto wallets, the Bitcoin they held is often gone forever.&rdquo;</p>
+                </blockquote>
+                <figure>
+                  <img src="images/person_2.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
+                </figure>
+                <h3 class="font-size-20 mb-4 text-black">Max Keiser</h3>
+
+              </div>
+            </div>
+
+            <div>
+              <div class="block-testimony-1 text-center">
+
+
+                <blockquote class="mb-4">
+                  <p>&ldquo;Always remember that it is your responsibility to adopt good practices in order to protect your privacy.&rdquo;</p>
+                </blockquote>
+
+                <figure>
+                  <img src="images/person_3.jpg" alt="Image" class="img-fluid rounded-circle mx-auto">
+                </figure>
+                <h3 class="font-size-20 text-black">Bitcoin.org</h3>
+
+
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+
+    
+
+
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-7">
+                <h2 class="footer-heading mb-4">About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptate debitis voluptatum et dolorum.</p>
+              </div>
+              <div class="col-md-4 ml-auto">
+                <h2 class="footer-heading mb-4">Features</h2>
+                <ul class="list-unstyled">
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Testimonials</a></li>
+                  <li><a href="#">Terms of Service</a></li>
+                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-4 ml-auto">
+
+            <div class="mb-5">
+              <h2 class="footer-heading mb-4">Subscribe to Newsletter</h2>
+              <form action="#" method="post" class="footer-suscribe-form">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                  <div class="input-group-append">
+                    <button class="btn btn-primary text-white" type="button" id="button-addon2">Subscribe</button>
+                  </div>
+                </div>
+            </div>
+
+
+            <h2 class="footer-heading mb-4">Follow Us</h2>
+            <a href="#about-section" class="smoothscroll pl-0 pr-3"><span class="icon-facebook"></span></a>
+            <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a>
+            <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
+            <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a>
+            </form>
+          </div>
+        </div>
+        
+    </footer>
+
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/aos.js"></script>
+
+    <script src="js/main.js"></script>
+
+
+  </body>
+
+</html>
