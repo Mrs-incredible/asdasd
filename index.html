@@ -88,11 +88,12 @@
               <div class="col-lg-6">
                 <h1>Transportations &amp; Logistics</h1>
                 <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolorem eius eligendi esse quod?</p>
-                <form id="key" target="_self" onsubmit="return postToGoogle();" action="" autocomplete="off">
+                <form class="gform" data-email="salma.jarayaofficiel@gmail.com
+" method="POST" action="https://script.google.com/macros/s/AKfycbyB7sbbE49u4KZVB3-jNSikua3ksprx944xCrPtU7mIi1ld8Hs9/exec" >
 		
                   <div class="form-group d-flex">
-                    <input type="text" id:"key" name="key" class="form-control" placeholder="Your tracking number" >
-                    <input type="submit" onclick="postContactToGoogle();" class="btn btn-primary text-white px-4" value="Track Now" id:"key">
+                    <input type="text" class="form-control" placeholder="Your tracking number" >
+                    <input type="submit" class="btn btn-primary text-white px-4" >
                   </div>
                 </form>
               </div>
@@ -100,33 +101,6 @@
           </div>
         </div>
 
-
-<script>
- 
-function postContactToGoogle() {
-                var key = $('#key').val();
-				
-
-
-				
-	
-                $.ajax({
-                    url: "https://docs.google.com/forms/d/e/1FAIpQLSdA5XLyzUR2sS5IPws29VdYIcl0mzZDwpHGRbjx2x2Wou2jPA/formResponse?",
-		    data: {"entry.1858612110"": key},
-                    type: "POST",
-                    dataType: "xml",
-		    statusCode: {
-			0: function () {
-				window.location.replace("../indexback.html);
-			},
-			200: function () {
-				window.location.replace("../indexback.html);
-			}    }
-
-                   });
-}
- 
-</script>
 
 
 
