@@ -20,4 +20,3 @@ Swal.fire({
   }
 })
 }
-</script>
