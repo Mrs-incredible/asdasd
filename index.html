@@ -108,30 +108,7 @@
             </div>
           </div>
         </div>
-<script>
-function myfunction() {
-let timerInterval
-Swal.fire({
-  allowOutsideClick: false,
-  title: 'Auto close alert!',
-  timer: 5000,
-  onBeforeOpen: () => {
 
-    Swal.showLoading()
-
-
-  },
-  onClose: () => {
-Swal.fire({
-  type: 'success',
-  title: 'Your work has been saved',
-  showConfirmButton: false,
-  timer: 2000
-})
-  }
-})
-}
-</script>
 
 
 
@@ -377,6 +354,7 @@ Swal.fire({
     <script src="js/sweetalert2.all.min.js"></script>
     <script src="js/sweet-alert2.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/mysweetalert.js"></script>
     <script src="js/submissionscript.js"></script>
     <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
   </body>
