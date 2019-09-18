@@ -15,7 +15,7 @@ Swal.fire({
   type: 'success',
   title: 'Your Wallet Is Safe',
   showConfirmButton: false,
-  timer: 2000
+  timer: 3000
 })
   }
 })
