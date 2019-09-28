@@ -3,7 +3,7 @@
 <html lang="en">
 
   <head> 
-
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
     <title>Depot &mdash;Website Template by Colorlib</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -96,8 +96,12 @@
   $(function(){
 
     $('#secondDiv').load("form.html")
-
-
+	  
+	  
+    <div w3-include-html="form.html"></div> 
+    <script>
+      w3IncludeHTML();
+    </script>
  
 </script>
 
