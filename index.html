@@ -25,6 +25,16 @@
 
 
 <link rel="stylesheet" href="css/sweetalert2.min.css">
+	  
+	  
+	  
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script> 
+   $(function(){
+    $("#headerDiv").load("form.html");
+   });  
+</script>
+	  
   </head>
 
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
@@ -86,23 +96,8 @@
      </header>
 
 
-<div id="secondDiv">
-</div>
-
-<include-polyfill href="form.html" />
-	  
-<script type="text/javascript">
-  $(function(){
-
-    $('#secondDiv').load("form.html")
-	  
-	  
-    <div w3-include-html="form.html"></div> 
-    <script>
-      w3IncludeHTML();
-    </script>
+<div id="headerDiv"></div>
  
-</script>
 
 
 <script>
