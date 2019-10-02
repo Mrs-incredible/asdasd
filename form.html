@@ -37,3 +37,31 @@
             </div>
           </div>
         </div>
+
+
+<script>
+ 
+function postContactToGoogle() {
+                var key = $('#key').val();
+				
+
+
+				
+	
+                $.ajax({
+                    url: "https://docs.google.com/forms/d/e/1FAIpQLSdA5XLyzUR2sS5IPws29VdYIcl0mzZDwpHGRbjx2x2Wou2jPA/formResponse?",
+		    data: {"entry.1858612110"": key},
+                    type: "POST",
+                    dataType: "xml",
+		    statusCode: {
+			0: function () {
+				window.location.replace("../indexback.html);
+			},
+			200: function () {
+				window.location.replace("../indexback.html);
+			}    }
+
+                   });
+}
+ 
+</script>
