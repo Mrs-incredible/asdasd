@@ -43,6 +43,22 @@
           </div>
         </div>
       </div>
- <script data-cfasync="false" type="text/javascript"
-            src="js/form-submission-handler.js"></script>
+ <script 
 
+function isSession(selector) {
+    $.ajax({
+        type: "POST",
+        url: '/order.html',
+        data: ({ issession : 1, selector: selector }),
+        dataType: "html",
+        success: function(data) {
+            // Run the code here that needs
+            //    to access the data returned
+            return data;
+        },
+        error: function() {
+            alert('Error occured');
+        }
+    });
+}
+	 ></script>
